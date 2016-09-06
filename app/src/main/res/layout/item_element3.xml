@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:id="@+id/tableRow">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="98dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.77"
+            android:weightSum="1">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scrollView2" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="65dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Courses au super U lalalalalalalalalalalalalalalalalalalaal"
+                    android:id="@+id/ild_txtDescription"
+                    android:textSize="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp" />
+            </ScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ild_txtDate"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="10/10/2016"
+                android:layout_alignBottom="@+id/tableRow"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="50"
+            android:textSize="30dp"
+            android:id="@+id/ild_txtSommeDepense"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="/"
+
+            android:textSize="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="50"
+            android:textSize="30dp"
+            android:id="@+id/item3_txtDetteTot"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="€"
+            android:textSize="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp" />
+    </TableRow>
+
+</RelativeLayout>
