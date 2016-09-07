@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">The Money Manager</string>
+    <string name="monnaie">€</string>
 </resources>
